@@ -1,13 +1,26 @@
-{
-    "prefix": "/images/installations",
-    "paths": [
-        "/IMGP4247.png",
-        "/IMGP4252.png",
-        "/IMGP4262.png",
-        "/IMGP4277.png",
-        "/IMGP4304.png",
-        "/IMGP4345.png",
-        "/IMGP4354.png",
-        "/IMGP4380.png"
-    ]
-}
+[
+    {
+        "name": "tears_for_queers",
+        "prefix": "/images/installations/tfq",
+        "paths": [
+            "/IMGP4247.png",
+            "/IMGP4252.png",
+            "/IMGP4262.png",
+            "/IMGP4277.png",
+            "/IMGP4304.png",
+            "/IMGP4345.png",
+            "/IMGP4354.png",
+            "/IMGP4380.png"
+        ]
+    },
+    {
+        "name": "pflanze_durch_den_asphalt",
+        "prefix": "/images/installations/pdda",
+        "paths": [
+            "/2024_12_11_EXAMEN_Ausstellungsansichten_0016.jpg",
+            "/2024_12_11_EXAMEN_Ausstellungsansichten_0017.jpg",
+            "/2024_12_11_EXAMEN_Ausstellungsansichten_0019.jpg",
+            "/2024_12_11_EXAMEN_Ausstellungsansichten_0021.jpg"
+        ]
+    }
+]

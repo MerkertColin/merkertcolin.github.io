@@ -5,6 +5,7 @@
 
     /** 
     * @typedef {object} Installations
+    * @property {string} installations.name
     * @property {string} installations.prefix
     * @property {string[]} installations.paths
     */
@@ -17,9 +18,10 @@
     onMount(async () => {
         const res = await fetch("/data/installations.json");
         
-        /**@type {Installations}*/ 
-        const installations = await res.json();
-        paths = installations.paths.map(x => installations.prefix + x)
+        /**@type {Installations[]}*/ 
+        const installationsList = await res.json();
+        const installations = installationsList.find(x => x.name === 'tears_for_queers');
+        paths = installations?.paths.map(x => installations.prefix + x) ?? [];
     })
 
     let lightboxImageSource = '';
@@ -43,15 +45,18 @@
 </script>
 
 <section in:fly={inTransitionParams} out:fly={outTransitionParams}>
-    <h1 class="display-5 text-center m-4">Installations</h1>
+    <h1 class="display-5 text-center m-4">Tears for Queers</h1>
     <div class="lightbox {lightboxVisibility}" on:click={() => hideLightbox()} >
         <img src={lightboxImageSource}/>
     </div>
     <div class="container-fluid">
         {#each paths as imgPath}
-        <img class="w-75 img-fluid mx-auto d-block m-2" src={imgPath} on:click={() => showLightbox(imgPath)} />
-    {/each}
+            <img class="w-75 img-fluid mx-auto d-block m-2" src={imgPath} on:click={() => showLightbox(imgPath)} />
+        {/each}
     </div>
+    <footer class="text-center mb-2" style="text-wrap: balance">
+        © Mario Strahl
+    </footer>
 </section>
 
 <style>

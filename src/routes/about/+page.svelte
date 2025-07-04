@@ -33,10 +33,10 @@
 
 </script>
 
-<section class="container" in:fly={inTransitionParams} out:fly={outTransitionParams}>
+<section class="container pb-4" in:fly={inTransitionParams} out:fly={outTransitionParams}>
     <h1 class="display-5 text-center m-4">About</h1>
-    <img class="rounded d-block mx-auto" src="/120275647_1367693733436663_8663752487400813982_n.jpg" alt="Martin Winkler" />
-    <p class="text-center pt-3">Martin Winkler – born in Halle &#040;Saale&#041;, Germany – lives and works in Kassel, Germany</p>
+    <img class="rounded d-block mx-auto w-50" src="/contact_photo.png" alt="Martin Winkler" />
+    <p class="text-center pt-3">Martin Winkler – born in Halle &#040;Saale&#041;, Germany – lives and works in Göttingen and Berlin</p>
     <hr />
     <div class="container">
         <Heading>Education</Heading>
@@ -45,7 +45,7 @@
             {#each about.education as education}
                 <p>{education.timeframe} {education.info}</p>
             {/each}
-            <Heading>Residencies</Heading>
+            <Heading>Residencies / Prizes</Heading>
             {#each about.residencies as residency}
                 <p>{residency.timeframe} {residency.info}</p>
             {/each}
@@ -74,8 +74,6 @@
 <style>
     img {
         object-fit: contain;
-        width: 75%;
-        height: 75%;
     }
 
     .spacing p {
