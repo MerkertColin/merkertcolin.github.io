@@ -22,5 +22,19 @@
             "/2024_12_11_EXAMEN_Ausstellungsansichten_0019.jpg",
             "/2024_12_11_EXAMEN_Ausstellungsansichten_0021.jpg"
         ]
+    },
+        {
+        "name": "berlin",
+        "prefix": "/images/installations/berlin",
+        "paths": [
+            "/DSCF4463.jpg",
+            "/DSCF4465.jpg",
+            "/DSCF4470.jpg",
+            "/DSCF4472.jpg",
+            "/DSCF4474.jpg",
+            "/DSCF4475.jpg",
+            "/DSCF4477.jpg",
+            "/DSCF4489.jpg"
+        ]
     }
 ]

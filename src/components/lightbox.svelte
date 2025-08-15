@@ -1,24 +1,22 @@
 <script>
-    import { onMount } from "svelte";
     import ImgCard from "./imgCard.svelte";
 
+    /** 
+    * @typedef {object} Work
+    * @property {string} name
+    * @property {string | undefined} description
+    * @property {string} path
+    */
     /**
-     * @type {any[]}
+     * @type {Work[]}
      */
-    let paintings = [];
-    
+    export let works;
     /**
      * @type {string | any}
      */
     let lightboxImageSource = '';
     let lightboxImageAlt = '';
     let lightboxVisibility = ''
-
-    onMount(async () => {
-        const res = await fetch("/data/images.json");
-        paintings = await res.json();
-        paintings.reverse();
-    })
 
     /**
      * @param {string | any} srcPath
@@ -41,15 +39,6 @@
         lightboxVisibility = '';
         document.body.style.overflow = '';
     }
-
-      /**
-     * @param {string | undefined} dimension
-     * @param {string | undefined} material
-     */
-    const getDescription = (dimension, material) => {
-        return dimension && material ? `${dimension} | ${material}` : undefined;
-    }
-
 </script>
 
 <div>
@@ -58,46 +47,46 @@
     </div>
     <div class="gridrow ">
         <div class="gridcol">
-            {#each paintings as painting, i}
+            {#each works as work, i}
                 {#if i % 4 === 0}
                     <ImgCard 
-                    title={painting.name} 
-                    description={getDescription(painting.dimension, painting.material)} 
-                    imgPath={painting.path}
-                    on:click={() => showLightbox(painting.path, painting.name)}/>
+                    title={work.name} 
+                    description={work.description} 
+                    imgPath={work.path}
+                    on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
         </div>
         <div class="gridcol">
-            {#each paintings as painting, i}
+            {#each works as work, i}
                 {#if i % 4 === 1}
                     <ImgCard 
-                    title={painting.name} 
-                    description={getDescription(painting.dimension, painting.material)} 
-                    imgPath={painting.path}
-                    on:click={() => showLightbox(painting.path, painting.name)}/>
+                    title={work.name} 
+                    description={work.description} 
+                    imgPath={work.path}
+                    on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
         </div>
         <div class="gridcol">
-            {#each paintings as painting, i}
+            {#each works as work, i}
                 {#if i % 4 === 2}
                     <ImgCard 
-                    title={painting.name} 
-                    description={getDescription(painting.dimension, painting.material)} 
-                    imgPath={painting.path}
-                    on:click={() => showLightbox(painting.path, painting.name)}/>
+                    title={work.name} 
+                    description={work.description} 
+                    imgPath={work.path}
+                    on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
         </div>
         <div class="gridcol">
-            {#each paintings as painting, i}
+            {#each works as work, i}
                 {#if i % 4 === 3}
                     <ImgCard 
-                    title={painting.name} 
-                    description={getDescription(painting.dimension, painting.material)} 
-                    imgPath={painting.path}
-                    on:click={() => showLightbox(painting.path, painting.name)}/>
+                    title={work.name} 
+                    description={work.description} 
+                    imgPath={work.path}
+                    on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
         </div>
