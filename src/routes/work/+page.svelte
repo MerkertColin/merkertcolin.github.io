@@ -75,7 +75,7 @@
 </script>
 
 <section in:fly={inTransitionParams} out:fly={outTransitionParams}>
-    <h1 class="display-5 text-center m-4">Paintings</h1>
+    <h1 class="display-5 text-center m-4">Work</h1>
     {#await getWorks()}
     <div class="d-flex justify-content-center">
         <div class="spinner-border" role="status">

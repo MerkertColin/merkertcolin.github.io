@@ -20,43 +20,7 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarExpandable">
             <div class="navbar-nav ms-auto">
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="/paintings"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        data-bs-auto-close="false"
-                        aria-expanded="false"
-                    >
-                        Work
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="/paintings">Paintings</a>
-                        </li>
-                        <li>
-                            <a 
-                                class="dropdown-item dropdown-toggle" 
-                                data-bs-toggle="collapse" 
-                                href="#installationsSubLinks" 
-                                role="button" 
-                                aria-expanded="false" 
-                                aria-controls="installationsSubLinks"
-                            >
-                                Installations
-                            </a>
-                            <ul class="nav-item collapse" id="installationsSubLinks">
-                                <li>
-                                    <a class="dropdown-item" href="/installations/tears_for_queers">Tears for Queers</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="/installations/pflanze_durch_den_asphalt">Pflanze durch den Asphalt</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                <NavItem href="/work">Work</NavItem>
                 <NavItem href="/about">About</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
             </div>
