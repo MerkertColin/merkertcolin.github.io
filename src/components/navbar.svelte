@@ -55,15 +55,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a class="dropdown-item" href="/sketchbook">Sketchbook</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/video">Video</a>
-                        </li>
                     </ul>
                 </li>
-                <NavItem href="http://www.martinwinklerart.bigcartel.com" target="_blank">Shop</NavItem>
                 <NavItem href="/about">About</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
             </div>
