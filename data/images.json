@@ -1,242 +1,422 @@
 [
     {
         "name": "nightmare",
-        "path": "/images/work/compressed/Ebene_2.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_2_tn.jpg",
+        "path": "/images/works/Ebene_2.jpg",
         "dimension": "48x70 cm",
         "material": "pencil on canvas"
     },
     {
         "name": "gay in the shell",
-        "path": "/images/work/compressed/Ebene_3.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_3_tn.jpg",
+        "path": "/images/works/Ebene_3.jpg",
         "dimension": "48x70 cm",
         "material": "oil & Pencil on canvas"
     },
     {
         "name": "cum",
-        "path": "/images/work/compressed/Ebene_5.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_5_tn.jpg",
+        "path": "/images/works/Ebene_5.jpg",
         "dimension": "60x80 cm",
         "material": "charcoal, gouache & urine on canvas"
     },
     {
         "name": "fungus refugium (2022)",
-        "path": "/images/work/fungus_refugium.png",
+        "thumbnail": "/images/thumbnails/fungus_refugium_tn.jpg",
+        "path": "/images/works/fungus_refugium.png",
         "dimension": "140x160 cm",
         "material": "oil on canvas"
     },
     {
         "name": "sudden arrhythmic death syndrome (2022)",
-        "path": "/images/work/sudden_arrythmic_death_syndrom.png",
+        "thumbnail": "/images/thumbnails/sudden_arrythmic_death_syndrom_tn.jpg",
+        "path": "/images/works/sudden_arrythmic_death_syndrom.png",
         "dimension": "90x60 cm",
         "material": "oil on canvas"
     },
     {
         "name": "flogging a dead horse (2022)",
-        "path": "/images/work/flogging_a_dead_horse.png",
+        "thumbnail": "/images/thumbnails/flogging_a_dead_horse_tn.jpg",
+        "path": "/images/works/flogging_a_dead_horse.png",
         "dimension": "160x120 cm",
         "material": "oil and acryl on canvas"
     },
     {
         "name": "the seashell pond (2022)",
-        "path": "/images/work/the_seashell_pond.png",
+        "thumbnail": "/images/thumbnails/the_seashell_pond_tn.jpg",
+        "path": "/images/works/the_seashell_pond.png",
         "dimension": "160x120 cm",
         "material": "oil on canvas"
     },
     {
         "name": "the pond (2022)",
-        "path": "/images/work/the_pond.png",
+        "thumbnail": "/images/thumbnails/the_pond_tn.jpg",
+        "path": "/images/works/the_pond.png",
         "dimension": "180x120 cm",
         "material": "oil on canvas"
     },
     {
         "name": "in the l.ake (2021)",
-        "path": "/images/work/in_the_lake.png",
+        "thumbnail": "/images/thumbnails/in_the_lake_tn.jpg",
+        "path": "/images/works/in_the_lake.png",
         "dimension": "120x120 cm",
         "material": "oil on canvas"
     },
     {
         "name": "chair 1 - butthistory (2020)",
-        "path": "/images/work/chair_1_butthistory.png",
+        "thumbnail": "/images/thumbnails/chair_1_butthistory_tn.jpg",
+        "path": "/images/works/chair_1_butthistory.png",
         "dimension": "60x80 cm",
         "material": "oil and acryl on canvas"
     },
     {
         "name": "chair 2 (2020)",
-        "path": "/images/work/chair_2.png",
+        "thumbnail": "/images/thumbnails/chair_2_tn.jpg",
+        "path": "/images/works/chair_2.png",
         "dimension": "60x80 cm",
         "material": "oil and acryl on canvas"
     },
     {
         "name": "olga's chair (2020)",
-        "path": "/images/work/olgas_chair.png",
+        "thumbnail": "/images/thumbnails/olgas_chair_tn.jpg",
+        "path": "/images/works/olgas_chair.png",
         "dimension": "60x80 cm",
         "material": "oil and acryl on canvas"
     },
     {
         "name": "still life with fetus (2022)",
-        "path": "/images/work/still_life_with_fetus.png",
+        "thumbnail": "/images/thumbnails/still_life_with_fetus_tn.jpg",
+        "path": "/images/works/still_life_with_fetus.png",
         "dimension": "86 × 110 cm",
         "material": "oil on canvas"
     },
     {
         "name": "brothers (2018)",
-        "path": "/images/work/brothers.png",
+        "thumbnail": "/images/thumbnails/brothers_tn.jpg",
+        "path": "/images/works/brothers.png",
         "dimension": "180×120 cm",
         "material": "acryl on canvas"
     },
     {
         "name": "the man in the moon (2021)",
-        "path": "/images/work/the_man_in_the_moon.png",
+        "thumbnail": "/images/thumbnails/the_man_in_the_moon_tn.jpg",
+        "path": "/images/works/the_man_in_the_moon.png",
         "dimension": "180×120 cm",
         "material": "acryl on canvas"
     },
     {
         "name": "selfportrait (2018)",
-        "path": "/images/work/selfportrait.png",
+        "thumbnail": "/images/thumbnails/selfportrait_tn.jpg",
+        "path": "/images/works/selfportrait.png",
         "dimension": "60×80 cm",
         "material": "acryl on canvas"
     },
     {
         "name": "siblings (2018)",
-        "path": "/images/work/siblings.png",
+        "thumbnail": "/images/thumbnails/siblings_tn.jpg",
+        "path": "/images/works/siblings.png",
         "dimension": "60×80 cm",
         "material": "acryl and oil on canvas"
     },
     {
         "name": "Pfirsich mit Wespen (2024)",
-        "path": "/images/work/IMGP4117.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4117_tn.jpg",
+        "path": "/images/works/IMGP4117.jpg",
         "dimension": "120x100 cm",
         "material": "charcoal & acrylic on canvas"
     },
     {
         "name": "Lollipop (2024)",
-        "path": "/images/work/IMGP4123.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4123_tn.jpg",
+        "path": "/images/works/IMGP4123.jpg",
         "dimension": "60x80 cm",
         "material": "charcoal & gouache on canvas"
     },
     {
         "name": "Falling (2024)",
-        "path": "/images/work/IMGP4136.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4136_tn.jpg",
+        "path": "/images/works/IMGP4136.jpg",
         "dimension": "60x80 cm",
         "material": "charcoal & gouache on canvas"
     },
     {
         "name": "be Marsha’s Darling (2024)",
-        "path": "/images/work/IMGP4142.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4142_tn.jpg",
+        "path": "/images/works/IMGP4142.jpg",
         "dimension": "60x80 cm",
         "material": "pencil & gouache on canvas"
     },
     {
         "name": "Josef Kohout (2024)",
-        "path": "/images/work/IMGP4147.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4147_tn.jpg",
+        "path": "/images/works/IMGP4147.jpg",
         "dimension": "60x80 cm",
         "material": "pencil & acrylic on canvas"
     },
     {
         "name": "Dolly de Vil (2024)",
-        "path": "/images/work/IMGP4151.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4151_tn.jpg",
+        "path": "/images/works/IMGP4151.jpg",
         "dimension": "50x40 cm",
         "material": "oil pastels & acrylic on canvas"
     },
     {
         "name": "Longing",
-        "path": "/images/work/IMGP4162.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4162_tn.jpg",
+        "path": "/images/works/IMGP4162.jpg",
         "dimension": "40x50 cm",
         "material": "charcoal & acrylic on canvas"
     },
     {
         "name": "13 Elefanten (2024)",
-        "path": "/images/work/IMGP4166.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4166_tn.jpg",
+        "path": "/images/works/IMGP4166.jpg",
         "dimension": "70x50 cm",
         "material": "guache on canvas"
     },
     {
         "name": "I’m not a girl (2024)",
-        "path": "/images/work/IMGP4169.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4169_tn.jpg",
+        "path": "/images/works/IMGP4169.jpg",
         "dimension": "40x50 cm",
         "material": "oil pastels & acrylic on canvas"
     },
     {
         "name": "trippin’ (2024)",
-        "path": "/images/work/IMGP4083.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4083_tn.jpg",
+        "path": "/images/works/IMGP4083.jpg",
         "dimension": "120x100 cm",
         "material": "oil & acrylic on canvas"
     },
     {
         "name": "Ausgang (2024)",
-        "path": "/images/work/IMGP4175.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4175_tn.jpg",
+        "path": "/images/works/IMGP4175.jpg",
         "dimension": "30x25 cm",
         "material": "pencil & acrylic on canvas"
     },
     {
         "name": "Eingang (2024)",
-        "path": "/images/work/IMGP4178.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4178_tn.jpg",
+        "path": "/images/works/IMGP4178.jpg",
         "dimension": "60x80 cm",
         "material": "oil pastel, charcoal and acrylic on canvas"
     },
     {
         "name": "monkey and the pearl (2024)",
-        "path": "/images/work/IMGP4199.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4199_tn.jpg",
+        "path": "/images/works/IMGP4199.jpg",
         "dimension": "10x10 cm",
         "material": "oil & gouache on canvas"
     },
     {
         "name": "Sailors I (2024)",
-        "path": "/images/work/IMGP4201.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4201_tn.jpg",
+        "path": "/images/works/IMGP4201.jpg",
         "dimension": "100x80 cm",
         "material": "charcoal on canvas"
     },
     {
         "name": "Sailors III (2024)",
-        "path": "/images/work/IMGP4204.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4204_tn.jpg",
+        "path": "/images/works/IMGP4204.jpg",
         "dimension": "100x80 cm",
         "material": "charcoal on canvas"
     },
     {
         "name": "Sailors II (2024)",
-        "path": "/images/work/IMGP4211.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4211_tn.jpg",
+        "path": "/images/works/IMGP4211.jpg",
         "dimension": "100x80 cm",
         "material": "charcoal on canvas"
     },
     {
         "name": "Sailors IV (2024)",
-        "path": "/images/work/IMGP4221.jpg",
+        "thumbnail": "/images/thumbnails/IMGP4221_tn.jpg",
+        "path": "/images/works/IMGP4221.jpg",
         "dimension": "100x80 cm",
         "material": "charcoal on canvas"
     },
     {
         "name": "tears for queers",
-        "path": "/images/work/compressed/Ebene_6.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_6_tn.jpg",
+        "path": "/images/works/Ebene_6.jpg",
         "dimension": "60x80 cm",
         "material": "mixed media on canvas"
     },
     {
         "name": "gay paradise",
-        "path": "/images/work/compressed/Ebene_4.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_4_tn.jpg",
+        "path": "/images/works/Ebene_4.jpg",
         "dimension": "60x80 cm",
         "material": "acrylic & urine on canvas"
     },
     {
         "name": "for Patti Smith ",
-        "path": "/images/work/compressed/Ebene_7.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_7_tn.jpg",
+        "path": "/images/works/Ebene_7.jpg",
         "dimension": "120x100 cm ",
         "material": "oil & acrylic on canvas"
     },
     {
         "name": "gritos en español",
-        "path": "/images/work/compressed/Ebene_8.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_8_tn.jpg",
+        "path": "/images/works/Ebene_8.jpg",
         "dimension": "120x100 cm",
         "material": "oil & acrylic on canvas"
     },
     {
         "name": "disney’s gay cruising forest",
-        "path": "/images/work/compressed/Ebene_9.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_9_tn.jpg",
+        "path": "/images/works/Ebene_9.jpg",
         "dimension": "200x200 cm",
         "material": "acrylic on canvas"
     },
     {
         "name": "fetus chimes",
-        "path": "/images/work/compressed/Ebene_1.jpg",
+        "thumbnail": "/images/thumbnails/Ebene_1_tn.jpg",
+        "path": "/images/works/Ebene_1.jpg",
         "dimension": "24x32 cm",
         "material": "oil & acrylic on canvas"
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4247_tn.jpg",
+        "path": "/images/works/IMGP4247.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4252_tn.jpg",
+        "path": "/images/works/IMGP4252.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4262_tn.jpg",
+        "path": "/images/works/IMGP4262.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4277_tn.jpg",
+        "path": "/images/works/IMGP4277.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4304_tn.jpg",
+        "path": "/images/works/IMGP4304.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4345_tn.jpg",
+        "path": "/images/works/IMGP4345.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4354_tn.jpg",
+        "path": "/images/works/IMGP4354.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/IMGP4380_tn.jpg",
+        "path": "/images/works/IMGP4380.png",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/2024_12_11_EXAMEN_Ausstellungsansichten_0016_tn.jpg",
+        "path": "/images/works/2024_12_11_EXAMEN_Ausstellungsansichten_0016.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/2024_12_11_EXAMEN_Ausstellungsansichten_0017_tn.jpg",
+        "path": "/images/works/2024_12_11_EXAMEN_Ausstellungsansichten_0017.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/2024_12_11_EXAMEN_Ausstellungsansichten_0019_tn.jpg",
+        "path": "/images/works/2024_12_11_EXAMEN_Ausstellungsansichten_0019.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/2024_12_11_EXAMEN_Ausstellungsansichten_0021_tn.jpg",
+        "path": "/images/works/2024_12_11_EXAMEN_Ausstellungsansichten_0021.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4463_tn.jpg",
+        "path": "/images/works/DSCF4463.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4465_tn.jpg",
+        "path": "/images/works/DSCF4465.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4470_tn.jpg",
+        "path": "/images/works/DSCF4470.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4472_tn.jpg",
+        "path": "/images/works/DSCF4472.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4474_tn.jpg",
+        "path": "/images/works/DSCF4474.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4475_tn.jpg",
+        "path": "/images/works/DSCF4475.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4477_tn.jpg",
+        "path": "/images/works/DSCF4477.jpg",
+        "dimension": "",
+        "material": ""
+    },
+    {
+        "name": "",
+        "thumbnail": "/images/thumbnails/DSCF4489_tn.jpg",
+        "path": "/images/works/DSCF4489.jpg",
+        "dimension": "",
+        "material": ""
     }
 ]
