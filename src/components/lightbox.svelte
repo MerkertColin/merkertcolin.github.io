@@ -4,6 +4,7 @@
     /** 
     * @typedef {object} Work
     * @property {string} name
+    * @property {string} thumbnail
     * @property {string | undefined} description
     * @property {string} path
     */
@@ -43,7 +44,7 @@
 
 <div>
     <div class="lightbox {lightboxVisibility}" on:click={() => hideLightbox()} >
-        <img src={lightboxImageSource} alt={lightboxImageAlt} />
+        <img srcset={lightboxImageSource} alt={lightboxImageAlt} />
     </div>
     <div class="gridrow ">
         <div class="gridcol">
@@ -52,7 +53,7 @@
                     <ImgCard 
                     title={work.name} 
                     description={work.description} 
-                    imgPath={work.path}
+                    imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
@@ -63,7 +64,7 @@
                     <ImgCard 
                     title={work.name} 
                     description={work.description} 
-                    imgPath={work.path}
+                    imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
@@ -74,7 +75,7 @@
                     <ImgCard 
                     title={work.name} 
                     description={work.description} 
-                    imgPath={work.path}
+                    imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}
@@ -85,7 +86,7 @@
                     <ImgCard 
                     title={work.name} 
                     description={work.description} 
-                    imgPath={work.path}
+                    imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
             {/each}

@@ -6,6 +6,7 @@
     /** 
     * @typedef {object} Work
     * @property {string} name
+    * @property {string} thumbnail
     * @property {string | undefined} description
     * @property {string} path
     */
@@ -23,15 +24,9 @@
     };
 
     /** 
-    * @typedef {object} Installation
-    * @property {string} name
-    * @property {string} prefix
-    * @property {string[]} paths
-    */
-
-    /** 
     * @typedef {object} Painting
     * @property {string} name
+    * @property {string} thumbnail
     * @property {string} dimension
     * @property {string} path
     * @property {string} material
@@ -46,30 +41,12 @@
             for (const imageObj of imagesObjs) {
                 works.push({
                     name: imageObj.name,
+                    thumbnail: imageObj.thumbnail,
                     description: getDescription(imageObj.dimension, imageObj.material),
                     path: imageObj.path,
                 });
             }
         }
-
-        const getInstallations = async () => {
-            const installationsRes = await fetch("/data/installations.json");
-        
-            /**@type {Installation[]}*/
-            const installationObjs = await installationsRes.json();
-            installationObjs.reverse();
-            for (const installation of installationObjs) {
-                for (const path of installation.paths) {
-                    works.push({
-                        name: '',
-                        description: '',
-                        path: installation.prefix + path,
-                    });
-                }
-            }
-        }
-
-        await getInstallations();
         await getImages();
     }
 </script>
