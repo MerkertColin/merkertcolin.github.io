@@ -1,1 +1,1 @@
-<h3 class="display-6 fs-6"><slot/></h3>
+<h3 class="display-6 fs-6 fw-bold"><slot/></h3>

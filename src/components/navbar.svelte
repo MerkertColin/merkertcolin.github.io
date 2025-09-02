@@ -20,8 +20,9 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarExpandable">
             <div class="navbar-nav ms-auto">
+                <NavItem href="/">Home</NavItem>
                 <NavItem href="/work">Work</NavItem>
-                <NavItem href="/about">About</NavItem>
+                <NavItem href="/about">Vitae</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
             </div>
         </div>
