@@ -90,7 +90,7 @@
     }
 
     :global(body) {
-        font-family: "Open Sans", Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         -webkit-font-smoothing: antialiased;
     }
 </style>
