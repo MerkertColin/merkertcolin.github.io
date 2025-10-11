@@ -1,5 +1,5 @@
 <script>
-    import ImgCard from "./imgCard.svelte";
+    import SubtitleCard from "./subtitleCard.svelte";
 
     /** 
     * @typedef {object} Work
@@ -46,30 +46,31 @@
     <div class="lightbox {lightboxVisibility}" on:click={() => hideLightbox()} >
         <img srcset={lightboxImageSource} alt={lightboxImageAlt} />
     </div>
-    <div class="gridrow ">
-        <div class="gridcol">
-            {#each works as work, i}
-                {#if i % 4 === 0}
-                    <ImgCard 
+        {#each works as work, i}
+        <div class="gridrow">
+            {#if i % 2 === 0}
+            <div class="gridcol"></div>
+            <div class="gridcol">
+                <SubtitleCard 
                     title={work.name} 
                     description={work.description} 
                     imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
-                {/if}
-            {/each}
-        </div>
-        <div class="gridcol">
-            {#each works as work, i}
-                {#if i % 4 === 1}
-                    <ImgCard 
+            </div>
+            {/if}
+            {#if i % 2 === 1}
+            <div class="gridcol">
+                <SubtitleCard 
                     title={work.name} 
                     description={work.description} 
                     imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
-                {/if}
-            {/each}
+            </div>
+            <div class="gridcol"></div>
+            {/if}
         </div>
-        <div class="gridcol">
+        {/each}
+        <!-- <div class="gridcol">
             {#each works as work, i}
                 {#if i % 4 === 2}
                     <ImgCard 
@@ -80,7 +81,7 @@
                 {/if}
             {/each}
         </div>
-        <div class="gridcol">
+        <div class="gridcol"> 
             {#each works as work, i}
                 {#if i % 4 === 3}
                     <ImgCard 
@@ -89,9 +90,9 @@
                     imgPath={work.thumbnail}
                     on:click={() => showLightbox(work.path, work.name)}/>
                 {/if}
-            {/each}
-        </div>
-    </div>
+            {/each} 
+        </div> 
+    </div> -->
 </div>
 
 
@@ -129,8 +130,8 @@
 
 /* Create four equal columns that sits next to each other */
 .gridcol {
-    flex: 25%;
-    max-width: 25%;
+    flex: 50%;
+    max-width: 50%;
     padding: 0 4px;
 }
 

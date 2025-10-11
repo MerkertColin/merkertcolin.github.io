@@ -1,1 +1,10 @@
-<h3 class="display-6 fs-6 fw-bold"><slot/></h3>
+<h3 class="display-6 fs-5"><slot/></h3>
+
+<style>
+    h3 {
+        font-family: "Gochi Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
+    

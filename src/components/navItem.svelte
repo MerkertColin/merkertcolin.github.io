@@ -6,3 +6,6 @@
 </script>
 
 <a class="nav-link" {href} {target}><slot/></a>
+
+<style>
+</style>

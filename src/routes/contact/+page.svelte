@@ -6,13 +6,11 @@
 </script>
 
 <section class="d-block" in:fly={inTransitionParams} out:fly={outTransitionParams}>
-    <h2 class=" display-5 text-center p-4">Contact</h2>
     <div class="contactinfo">
-        <p class="text-center">Martin Winkler</p>
+        <h2 class=" display-5 text-center p-4">Martin Winkler</h2>
         <p class="text-center">
             Mail: <a href="mailto:martinwinkler@gmx.de">martwinkler@gmx.de</a>
         </p>
-        <p class="text-center">Tel: +49 15126735338</p>
         <p class="text-center"><Instagram /> <a href="https://www.instagram.com/mart.winkler/">@mart.winkler</a></p>
     </div>
     <footer class="text-center mt-4" style="text-wrap: balance">
@@ -53,5 +51,11 @@
         top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-family: "Gochi Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
 </style> 
