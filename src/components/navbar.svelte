@@ -18,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarExpandable">
-            <div class="navbar-nav ms-auto">
+            <div class="navbar-nav">
                 <NavItem href="/">MARTIN WINKLER</NavItem>
                 <NavItem href="/about">INFO</NavItem>
                 <NavItem href="/contact">CONTACT</NavItem>
