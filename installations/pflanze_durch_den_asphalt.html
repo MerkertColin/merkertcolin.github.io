@@ -11,22 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 		<link href="../_app/immutable/assets/5.u4dntVSZ.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.nZxA8jRw.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.YwqjRr-r.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.2H8hWTJS.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.O_z6915W.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.4izEVm0H.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.AvKKMT3Z.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.GYsgA-yu.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.n8-s6Chb.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.OmXKrhVp.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.YnhzhKqw.js">
 		<link rel="modulepreload" href="../_app/immutable/nodes/5.FK2ithjx.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/each.-oqiv04n.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.lJHPJAGv.js"><title>Martin Winkler</title><!-- HEAD_svelte-1abxp6_START --><!-- HEAD_svelte-1abxp6_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">   <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top" id="topLevelNav"><div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExpandable" aria-controls="navbarExpandable" aria-expanded="false" aria-label="Toggle navigation" data-svelte-h="svelte-1oecdn6"><span class="navbar-toggler-icon"></span></button> <div class="navbar-collapse collapse" id="navbarExpandable"><div class="navbar-nav ms-auto"><a class="nav-link" href="/" target="">MARTIN WINKLER</a> <a class="nav-link" href="/about" target="">INFO</a> <a class="nav-link" href="/contact" target="">CONTACT</a></div></div></div> </nav> <main><section><h1 class="display-5 text-center m-4" data-svelte-h="svelte-13wcvvg">Pflanze durch den Asphalt</h1> <div class="lightbox  svelte-u1p1ef"><img src="" class="svelte-u1p1ef"></div> <div class="container-fluid"></div> <footer class="text-center mb-2" style="text-wrap: balance" data-svelte-h="svelte-2q58ei">© Lucas Melzer</footer> </section></main> 
+		<div style="display: contents">   <nav class="navbar navbar-expand-sm bg-body-tertiary sticky-top" id="topLevelNav"><div class="container-fluid"><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExpandable" aria-controls="navbarExpandable" aria-expanded="false" aria-label="Toggle navigation" data-svelte-h="svelte-1oecdn6"><span class="navbar-toggler-icon"></span></button> <div class="navbar-collapse collapse" id="navbarExpandable"><div class="navbar-nav"><a class="nav-link" href="/" target="">MARTIN WINKLER</a> <a class="nav-link" href="/about" target="">INFO</a> <a class="nav-link" href="/contact" target="">CONTACT</a></div></div></div> </nav> <main><section><h1 class="display-5 text-center m-4" data-svelte-h="svelte-13wcvvg">Pflanze durch den Asphalt</h1> <div class="lightbox  svelte-u1p1ef"><img src="" class="svelte-u1p1ef"></div> <div class="container-fluid"></div> <footer class="text-center mb-2" style="text-wrap: balance" data-svelte-h="svelte-2q58ei">© Lucas Melzer</footer> </section></main> 
 			
 			<script>
 				{
-					__sveltekit_gcvmbd = {
+					__sveltekit_1ugxq3d = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						env: null
 					};
@@ -36,8 +36,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.nZxA8jRw.js"),
-						import("../_app/immutable/entry/app.4izEVm0H.js")
+						import("../_app/immutable/entry/start.YwqjRr-r.js"),
+						import("../_app/immutable/entry/app.GYsgA-yu.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 5],
@@ -49,5 +49,20 @@
 				}
 			</script>
 		</div>
+		<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const navLinks = document.querySelectorAll('#navbarExpandable .nav-link');
+			const navbarCollapse = document.getElementById('navbarExpandable');
+
+			navLinks.forEach(function (link) {
+			link.addEventListener('click', function () {
+				const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+				if (bsCollapse && window.innerWidth < 576) {
+				bsCollapse.hide();
+				}
+			});
+			});
+		});
+		</script>
 	</body>
 </html>
