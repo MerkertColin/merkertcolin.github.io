@@ -2,33 +2,33 @@
     "education" : [
         {
             "timeframe": "2025",
-            "info": "Meisterschüler, master class, Prof. Dierk Schmidt | Kunsthochschule Kassel, Germany"
+            "info": "Meisterschüler, master class, Prof. Dierk Schmidt | Kunsthochschule Kassel (GER)"
         },
         {
             "timeframe": "2017 - 2024",
-            "info": "Studies of Fine Arts, Prof. Dierk Schmidt | Kunsthochschule Kassel, Germany"
+            "info": "Studies of Fine Arts, Prof. Dierk Schmidt | Kunsthochschule Kassel (GER)"
         },
         {
             "timeframe": "2013 - 2017",
-            "info": "Studies in Journalism and Publishing, Universities of Magdeburg & Leipzig, Germany"
+            "info": "Studies in Journalism and Publishing, Universities of Magdeburg & Leipzig (GER)"
         }
     ],
     "residencies": [
         {
-            "timeframe": "2026 - 2027",
-            "info": "Artist in Residence, Künstlerhaus Meinersen, Germany"
+            "timeframe": "2026",
+            "info": "One-year Residency, Künstlerhaus Meinersen (GER)"
         },
         {
             "timeframe": "2026",
-            "info": "Shortlisted, Residency Program, Absolute Art Space, Taiwan"
+            "info": "Shortlisted, Residency Program, Absolute Art Space (TWN)"
         },
         {
             "timeframe": "2025",
-            "info": "Artist in Residence, GlogauAir, Berlin, Germany"
+            "info": "Three-month Residence, GlogauAir, Berlin (GER)"
         },
         {
             "timeframe": "2025",
-            "info": "Selected for support by the Graduate Center of the Art Academy, Kassel, Germany"
+            "info": "Selected for support by the Graduate Center of the Art Academy, Kassel (GER)"
         }
     ],
     "publications": [
@@ -45,61 +45,41 @@
         "solo": [
             {
                 "timeframe": "2024",
-                "info": "\"tears for queers\", Ausstellungshalle, Kassel, Germany"
+                "info": "\"tears for queers\", Exhibition Hall, Kassel (GER)"
             }
         ],
         "group": [
             {
+                "timeframe": "2027",
+                "info": "Künstlerhaus Meinersen, (GER)"
+            },
+            {
                 "timeframe": "2025",
-                "info": "+1 Hospitality as Artistic Practice, Frankfurt (Main), Germany"
+                "info": "Hospitality as Artistic Practice, Frankfurt (Main) (GER)"
             },
             {
                 "timeframe": "2024",
-                "info": "Die Pflanze durch den Asphalt, Documenta Hall, Kassel, Germany"
-            },
-            {
-                "timeframe": "2024",
-                "info": "Dierk Schmidt Klasse, Kassel, Germany"
-            },
-            {
-                "timeframe": "2024",
-                "info": "New Artist Exhibition, The Ballery, Berlin, Germany"
-            },
-            {
-                "timeframe": "2023",
-                "info": "Mars benefit exhibition, Frankfurt am Main, Germany"
+                "info": "New Artist Exhibition, The Ballery, Berlin (GER)"
             },
             {
                 "timeframe": "2022",
-                "info": "august exhibition, Kassel, Germany"
-            },
-            {
-                "timeframe": "2022",
-                "info": "Dierk Schmidt class, Kassel, Germany"
+                "info": "Dierk Schmidt class, Kassel (GER)"
             },
             {
                 "timeframe": "2021",
-                "info": "\"A Shared Space\", Galeria.Kollektiva, Kassel, Germany"
+                "info": "\"A Shared Space\", Galeria.Kollektiva, Kassel (GER)"
             },
             {
                 "timeframe": "2020",
-                "info": "\"Free Entry\", Kassel, Germany"
+                "info": "\"Free Entry\", Kassel (GER)"
             },
             {
                 "timeframe": "2019",
-                "info": "Dierk Schmidt Klasse, Kassel, Germany"
-            },
-            {
-                "timeframe": "2018",
-                "info": "\"Autonomie\", Kassel, Germany"
-            },
-            {
-                "timeframe": "2018",
-                "info": "\"Dear System\", Raum für urbane Experimente, Kassel, Germany"
+                "info": "Dierk Schmidt Klasse, Kassel (GER)"
             },
             {
                 "timeframe": "2016",
-                "info": "\"konform\", krudebude, Leipzig, Germany"
+                "info": "Krudebude, Leipzig (GER)"
             }
         ]
     }
