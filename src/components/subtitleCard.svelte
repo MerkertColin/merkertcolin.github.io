@@ -21,7 +21,6 @@
 
 <style>
     h1 {
-        font-family: "Gochi Hand", cursive;
         font-weight: 400;
         font-style: normal;
     }

@@ -2,7 +2,6 @@
 
 <style>
     h3 {
-        font-family: "Gochi Hand", cursive;
         font-weight: 400;
         font-style: normal;
     }
