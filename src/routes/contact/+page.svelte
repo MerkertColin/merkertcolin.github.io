@@ -1,11 +1,11 @@
 <script>
     import { inTransitionParams, outTransitionParams } from "$lib/transitioning";
-    import { fly } from "svelte/transition";
+    import { fade } from "svelte/transition";
     import Instagram from "../../components/instagram.svelte";
 
 </script>
 
-<section class="d-block" in:fly={inTransitionParams} out:fly={outTransitionParams}>
+<section class="d-block" in:fade={inTransitionParams} out:fade={outTransitionParams}>
     <div class="contactinfo">
         <h2 class=" display-5 text-center p-4">Martin Winkler</h2>
         <p class="text-center">

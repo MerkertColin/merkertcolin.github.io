@@ -1,6 +1,6 @@
 <script>
     import { inTransitionParams, outTransitionParams } from '$lib/transitioning';
-    import { fly } from 'svelte/transition'
+    import { fade } from 'svelte/transition'
     import Lightbox from '../components/lightbox.svelte';
 
     /** 
@@ -61,7 +61,7 @@
     }
 </script>
 
-<section in:fly={inTransitionParams} out:fly={outTransitionParams}>
+<section in:fade={inTransitionParams} out:fade={outTransitionParams}>
     {#await getWorks()}
     <div class="d-flex justify-content-center">
         <div class="spinner-border" role="status">

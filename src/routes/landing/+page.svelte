@@ -1,9 +1,9 @@
 <script>
     import { inTransitionParams, outTransitionParams } from "$lib/transitioning";
-    import { fly } from "svelte/transition";
+    import { fade } from "svelte/transition";
 </script>
 
-<section class="" in:fly={inTransitionParams} out:fly={outTransitionParams}>
+<section class="" in:fade={inTransitionParams} out:fade={outTransitionParams}>
 </section>
 
 <style>

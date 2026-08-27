@@ -5,7 +5,12 @@
     export let target = '';
 </script>
 
-<a class="nav-link" {href} {target}><slot/></a>
+<a class="nav-link text-muted" {href} {target}><slot/></a>
 
 <style>
+    .nav-link {
+        padding: 0;
+        margin: 4px 0;
+        text-decoration: none;
+    }
 </style>

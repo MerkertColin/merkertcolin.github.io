@@ -1,4 +1,4 @@
-const duration = 400;
+const duration = 200;
 const delay = duration;
 
 export const outTransitionParams = {

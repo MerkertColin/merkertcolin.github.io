@@ -1,7 +1,7 @@
 <script>
     import { inTransitionParams, outTransitionParams } from "$lib/transitioning";
     import { onMount } from "svelte";
-    import { fly } from "svelte/transition";
+    import { fade, fly } from "svelte/transition";
 
     /** 
     * @typedef {object} Installations
@@ -44,7 +44,7 @@
     }
 </script>
 
-<section in:fly={inTransitionParams} out:fly={outTransitionParams}>
+<section in:fade={inTransitionParams} out:fade={outTransitionParams}>
     <h1 class="display-5 text-center m-4">Tears for Queers</h1>
     <div class="lightbox {lightboxVisibility}" on:click={() => hideLightbox()} >
         <img src={lightboxImageSource}/>

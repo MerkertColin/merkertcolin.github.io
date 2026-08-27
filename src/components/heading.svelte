@@ -1,4 +1,4 @@
-<h2 class="display-6 fs-3"><slot/></h2>
+<h2 class="display-6 fs-5 text-dark"><slot/></h2>
 
 <style>
     h2 {

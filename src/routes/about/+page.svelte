@@ -1,7 +1,7 @@
 <script>
     import { outTransitionParams, inTransitionParams } from '$lib/transitioning';
     import { onMount } from 'svelte';
-    import { fly } from 'svelte/transition'
+    import { fade } from 'svelte/transition'
     import Heading from '../../components/heading.svelte';
     import SubHeading from '../../components/subHeading.svelte';
 
@@ -33,39 +33,55 @@
 
 </script>
 
-<section class="container pb-4" in:fly={inTransitionParams} out:fly={outTransitionParams}>
-    <p class="text-left pt-3"><b>Martin Winkler &#040;b. 1992, Halle/Saale, Germany&#041;</b> is a visual artist based in Göttingen and Berlin. His work explores queerness, history, and pop culture through painting, illustration, and installation. Drawing from his background in journalism and extensive travels, he reexamines overlooked or forgotten narratives, transforming them with humor, bold symbolism, and vivid color. <br/><br/>Winkler often references historical imagery, queer archives, and the aesthetics of past childhoods and pop culture, translating them into simplified, dynamic forms that oscillate between abstraction and figuration. His compositions invite viewers to reflect on identity, trauma, and resilience, weaving together personal and collective histories.</p>
+<section class="container pb-4 text-muted" in:fade={inTransitionParams} out:fade={outTransitionParams}>
+    <p>
+        <span>MartinWinklerStudio (at) gmail.com</span>
+        <br />
+        <span>lives and works in Göttingen, Germany</span>
+    </p>
+    <p class="text-left pt-3">
+        Martin Winkler (b. 1992, Halle/Saale, Germany) is a visual artist based in Germany. Through painting, installation, and
+collaborative projects, he investigates queer memory, visibility, and the fragile ways histories are constructed. Borrowing
+visual languages from children's media, folklore, and popular culture, he juxtaposes playful imagery with themes of
+violence, vulnerability, and care.
+    </p>
+    <p>
+        Rather than illustrating history, Winkler reconstructs its emotional afterlife. His works transform archival fragments and
+familiar symbols into poetic, often unsettling narratives that question whose lives are remembered, whose disappear,
+and how empathy can become a political act.
+    </p>
+    <a class="text-muted" href="https://www.instagram.com/mart.winkler/">instagram</a>
     <hr />
     <div class="container">
         <Heading>Education</Heading>
         <div class="spacing">
             {#if about}
                 {#if about.exhibitions.solo.length > 0}
-                    <Heading>Solo Exhibitions</Heading>
+                    <SubHeading>Solo Exhibitions</SubHeading>
                     {#each about.exhibitions.solo as soloExhibition}
                         <p>{soloExhibition.timeframe} {soloExhibition.info}</p>
                     {/each}
                 {/if}
             {#if about.exhibitions.group.length > 0}
-                <Heading>Group Exhibitions</Heading>
+                <SubHeading>Group Exhibitions</SubHeading>
                 {#each about.exhibitions.group as groupExhibition}
                     <p>{groupExhibition.timeframe} {groupExhibition.info}</p>
                 {/each}
             {/if}
             {#if about.education}
-                <Heading>Education</Heading>
+                <SubHeading>Education</SubHeading>
                 {#each about.education as education}
                     <p>{education.timeframe} {education.info}</p>
                 {/each}
             {/if}
             {#if about.residencies}
-                <Heading>Residencies / Grants</Heading>
+                <SubHeading>Residencies / Grants</SubHeading>
                 {#each about.residencies as residency}
                     <p>{residency.timeframe} {residency.info}</p>
                 {/each}
             {/if}
             
-            <Heading>Publications</Heading>
+            <SubHeading>Publications</SubHeading>
             {#each about.publications as publication}
                 <p>{publication.timeframe} {publication.info}</p>
             {/each}
@@ -92,5 +108,9 @@
     :global(body) {
         font-family: Arial, Helvetica, sans-serif;
         -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+        text-decoration: underline
     }
 </style>
