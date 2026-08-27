@@ -62,7 +62,7 @@
 </script>
 
 <section in:fade={inTransitionParams} out:fade={outTransitionParams}>
-    {#await getWorks()}
+    <!-- {#await getWorks()}
     <div class="d-flex justify-content-center">
         <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -70,5 +70,5 @@
     </div>
     {:then _} 
     <Lightbox works={works} />
-    {/await}
+    {/await} -->
 </section>
