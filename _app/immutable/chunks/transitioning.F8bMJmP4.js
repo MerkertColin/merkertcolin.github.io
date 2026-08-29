@@ -1,0 +1,3 @@
+import{i as _,j as y}from"./scheduler.xG86wgT4.js";function v(n){const t=n-1;return t*t*t+1}function P(n,{delay:t=0,duration:o=400,easing:s=_}={}){const a=+getComputedStyle(n).opacity;return{delay:t,duration:o,easing:s,css:i=>`opacity: ${i*a}`}}function S(n,{delay:t=0,duration:o=400,easing:s=v,x:a=0,y:i=0,opacity:f=0}={}){const r=getComputedStyle(n),e=+r.opacity,d=r.transform==="none"?"":r.transform,l=e*(1-f),[m,p]=y(a),[$,x]=y(i);return{delay:t,duration:o,easing:s,css:(u,g)=>`
+			transform: ${d} translate(${(1-u)*m}${p}, ${(1-u)*$}${x});
+			opacity: ${e-l*g}`}}const c=200,w=c,T={duration:c,x:"-100vw"},U={duration:c,delay:w,x:"100vw"};export{S as a,P as f,U as i,T as o};
