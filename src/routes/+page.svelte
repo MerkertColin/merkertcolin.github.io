@@ -2,6 +2,8 @@
     import { inTransitionParams, outTransitionParams } from '$lib/transitioning';
     import { fade } from 'svelte/transition'
     import Lightbox from '../components/lightbox.svelte';
+    import { page } from '$app/stores';
+    import Navbar from '../components/navbar.svelte';
 
     /** 
     * @typedef {object} Work
@@ -62,6 +64,9 @@
 </script>
 
 <section in:fade={inTransitionParams} out:fade={outTransitionParams}>
+    <div class='d-md-none'>
+        <Navbar />
+    </div>
     <!-- {#await getWorks()}
     <div class="d-flex justify-content-center">
         <div class="spinner-border" role="status">
